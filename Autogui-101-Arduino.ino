@@ -5,7 +5,7 @@
 //charDef
 char winkey = 'KEY_LEFT_GUI'
 char ctrl = 'KEY_LEFT_CTRL'
-char DownloadCmd = 'powershell Invoke-WebRequest -Uri "www.python.jp/pages/python_logo2.png" -OutFile "~\Downloads\TheHopeOne.png"'
+char DownloadCmd = 'powershell Invoke-WebRequest -Uri "www.python.jp/pages/python_logo2.png" -OutFile "~/Downloads/TheHopeOne.png"'
 char OpenCmd = 'C:/Users/%username%/Downloads/TheHopeOne.png'
 
 void setup(){
