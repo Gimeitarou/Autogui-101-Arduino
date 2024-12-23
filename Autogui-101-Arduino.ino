@@ -9,7 +9,7 @@ void setup(){
 //download a pic on DL-dir
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
-  delay(500);//0.1sec,hotkeyTime
+  delay(500);//0.5sec,hotkeyTime
   Keyboard.releaseAll();
   Keyboard.print("powershell Invoke-WebRequest -Uri gahag.net/img/201608/26s/gahag-0119154009-1.jpg -OutFile Downloads/Lake.jpg\n");
   delay(7000);//7sec,waitForDownload
