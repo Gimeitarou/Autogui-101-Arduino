@@ -11,7 +11,7 @@ void setup(){
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  Keyboard.print("powershell Invoke-WebRequest -Uri www.arduino.cc/static/media/arduino-UNO.bcc69bde.png -OutFile Downloads/Nothing.png\n");
+  Keyboard.print("powershell Invoke-WebRequest -Uri mercury.publicdomainq.net/2024o/2024-07o/2024-07-04o/publicdomainq-0081296kvhvir.jpg -OutFile Downloads/Sunflower.jpg\n");
   delay(5000);//5sec,waitForDownload
 
   //open the pic
@@ -19,7 +19,7 @@ void setup(){
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  Keyboard.print("C'/Users/%username%/Downloads/Nothing.png\n");
+  Keyboard.print("C'/Users/%username%/Downloads/Sunflower.jpg\n");
   delay(3000);//3sec,waitForOpeningPic
 
   //set it as wallpaper
