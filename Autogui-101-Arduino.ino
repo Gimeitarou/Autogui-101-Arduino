@@ -2,39 +2,28 @@
 
 #include <Keyboard.h>
 
-//charDef
-//char winkey = 'KEY_LEFT_GUI';
-//char ctrl = 'KEY_LEFT_CTRL';
-//char DownloadCmd = "powershell Invoke-WebRequest -Uri www.python.org/static/img/python-logo.png -OutFile Downloads/1.png";
-//char OpenCmd = "C'/Users/%username%/Downloads/TheHopeOne.png";
-
 void setup(){
   Keyboard.begin();
   delay(3000);//3sec
 
 //download a pic on DL-dir
   Keyboard.press(KEY_LEFT_GUI);
-  //Keyboard.press(winkey);
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  Keyboard.print("powershell Invoke-WebRequest -Uri www.python.org/static/img/python-logo.png -OutFile Downloads/Nothing.png\n");
-  //Keyboard.println(DownloadCmd);
+  Keyboard.print("powershell Invoke-WebRequest -Uri www.arduino.cc/static/media/arduino-UNO.bcc69bde.png -OutFile Downloads/Nothing.png\n");
   delay(5000);//5sec,waitForDownload
 
   //open the pic
   Keyboard.press(KEY_LEFT_GUI);
-  //Keyboard.press(winkey);
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
   Keyboard.print("C'/Users/%username%/Downloads/Nothing.png\n");
-  //Keyboard.println(OpenCmd);
   delay(3000);//3sec,waitForOpeningPic
 
   //set it as wallpaper
   Keyboard.press(KEY_LEFT_CTRL);
-  //Keyboard.press(ctrl);
   Keyboard.press('b');
   delay(100);//0.1sec//0.3sec,hotkeyTime
   Keyboard.releaseAll();
