@@ -32,7 +32,7 @@ void setup(){
   //close the pic
   Keyboard.press(KEY_LEFT_ALT);
   Keyboard.press(KEY_F4);
-  delay(300);//0.3sec,hotkeyTime/
+  delay(300);//0.3sec,hotkeyTime
   Keyboard.releaseAll();
 
   Keyboard.end();
