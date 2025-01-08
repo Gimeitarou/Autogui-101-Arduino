@@ -1,4 +1,7 @@
-//refference to https://speeddemon.jp/keyboard-h/#toc12
+//Copyright (c) 2024 Gimeitarou
+//This software is released under the MIT License, see LICENSE.
+
+//learned from https://speeddemon.jp/keyboard-h/#toc12
 
 #include <Keyboard.h>
 
@@ -6,7 +9,7 @@ void setup(){
   Keyboard.begin();
   delay(3000);//3sec
 
-//download a pic on DL-dir
+  //download a pic on DL-dir
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   delay(500);//0.5sec,hotkeyTime
