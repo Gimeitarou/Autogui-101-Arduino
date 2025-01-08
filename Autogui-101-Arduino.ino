@@ -1,4 +1,7 @@
-//refference to https://speeddemon.jp/keyboard-h/#toc12
+//Copyright (c) 2024 Gimeitarou
+//This software is released under the MIT License, see LICENSE.
+
+//learned from https://speeddemon.jp/keyboard-h/#toc12
 
 #include <Keyboard.h>
 
@@ -44,6 +47,3 @@ void setup(){
 
 void loop(){
 }
-
-//Copyright (c) 2024 Gimeitarou
-//This software is released under the MIT License, see LICENSE.
