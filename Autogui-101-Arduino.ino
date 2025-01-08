@@ -6,7 +6,7 @@ void setup(){
   Keyboard.begin();
   delay(3000);//3sec
 
-//download a pic on DL-dir
+  //download a pic on DL-dir
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
