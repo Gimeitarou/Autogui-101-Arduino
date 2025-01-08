@@ -44,3 +44,6 @@ void setup(){
 
 void loop(){
 }
+
+//Copyright (c) 2024 Gimeitarou
+//This software is released under the MIT License, see LICENSE.
