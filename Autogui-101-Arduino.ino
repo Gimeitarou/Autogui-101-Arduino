@@ -28,7 +28,7 @@ void setup(){
   //set it as wallpaper
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press('b');
-  delay(100);//0.1sec//0.3sec,hotkeyTime
+  delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
   delay(2000);//2sec,waitForSettingWallpaper
 
