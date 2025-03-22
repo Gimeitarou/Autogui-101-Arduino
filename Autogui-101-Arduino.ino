@@ -23,7 +23,7 @@ void setup(){
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
   Keyboard.print("C'/Users/%username%/Downloads/Lake.jpg\n");
-  delay(2000);//2sec,waitForOpeningPic
+  delay(2500);//2.5sec,waitForOpeningPic
 
   //set it as wallpaper
   Keyboard.press(KEY_LEFT_CTRL);
