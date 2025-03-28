@@ -14,7 +14,7 @@ void setup(){
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  Keyboard.print("powershell Invoke-WebRequest -Uri gahag.net/img/201608/26s/gahag-0119154009-1.jpg -OutFile Downloads/Lake.jpg\n");
+  Keyboard.print("powershell Invoke-WebRequest -Uri the-public-domain-review.imgix.net/collections/campi-phlegraei/campi-phlegraei-9.jpg -OutFile Downloads/Lake.jpg\n");
   delay(10000);//10sec,waitForDownload
 
   //open the pic
