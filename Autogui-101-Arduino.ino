@@ -7,15 +7,15 @@
 
 void setup(){
   Keyboard.begin();
-  delay(3000);//3sec
+  delay(2000);//2sec
 
   //download a pic on DL-dir
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  Keyboard.print("powershell Invoke-WebRequest -Uri gahag.net/img/201608/26s/gahag-0119154009-1.jpg -OutFile Downloads/Lake.jpg\n");
-  delay(5000);//5sec,waitForDownload
+  Keyboard.print("powershell Invoke-WebRequest -Uri the-public-domain-review.imgix.net/collections/campi-phlegraei/campi-phlegraei-9.jpg -OutFile Downloads/Lake.jpg\n");
+  delay(10000);//10sec,waitForDownload
 
   //open the pic
   Keyboard.press(KEY_LEFT_GUI);
@@ -23,14 +23,14 @@ void setup(){
   delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
   Keyboard.print("C'/Users/%username%/Downloads/Lake.jpg\n");
-  delay(1000);//1sec,waitForOpeningPic
+  delay(2500);//2.5sec,waitForOpeningPic
 
   //set it as wallpaper
   Keyboard.press(KEY_LEFT_CTRL);
   Keyboard.press('b');
-  delay(100);//0.1sec//0.3sec,hotkeyTime
+  delay(100);//0.1sec,hotkeyTime
   Keyboard.releaseAll();
-  delay(1000);//1sec,waitForSettingWallpaper
+  delay(2000);//2sec,waitForSettingWallpaper
 
   //close the pic
   Keyboard.press(KEY_LEFT_ALT);
